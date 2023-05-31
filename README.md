@@ -27,7 +27,7 @@ jobs:
     - uses: actions/checkout@v2
 
     # Fetch Hugo to Firebase docker image
-    - uses: wajahatkarim3/Hugo-On-Fire@master
+    - uses: softwareguru/hugo-on-fire@master
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 ```
